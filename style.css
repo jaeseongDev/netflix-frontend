@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.movie {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.movie:last-child {
+  border-bottom: none;
+}
+
+.movie img {
+  float: left;
+  margin-right: 10px;
+  width: 120px;
+  height: auto;
+}
+
+.movie h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.movie p {
+  margin: 5px 0;
+  color: #666;
+}
